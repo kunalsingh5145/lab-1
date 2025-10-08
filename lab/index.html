@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Kunal Singh Salaria</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hello! i am a web development student.This is my personal Portfolio website.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="portofilo.jpg" alt="profile picture" height="200" width="200">
+            <p>I am passionate about learning web development and Building creative projects </p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li>Portfolio Website: A personal one page website to showcase your bio, skills and contact deatails.
+                </li>
+                <li> Medium Clone: A simple blog layout that looks like Medium, built only with html and css.
+                </li>
+                <li> User Form: A form webpage with fields like name , email , and message for practicing form handling.
+                </li>
+            </ul>
+        </section>
+
+        <section id="Skills">
+            <h2>Technical Skills</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>skills</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="" method="post">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="10" rows="10" placeholder="Enter your message"
+                        required></textarea>
+                </div>
+                <br>
+                <button type="submit">send message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

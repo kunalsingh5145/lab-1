@@ -1,0 +1,97 @@
+
+header{
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    position: sticky; /* stay at top when scrooling */
+    top: 0%;
+}
+header h1{
+    font-size: 2rem;
+}
+nav{
+    background-color: #3498db;
+}
+nav ul{
+    display: flex; /*make links horizontal*/
+    gap: 30px;/*space btw links*/
+}
+nav a{
+    color: white;
+    text-decoration: none; /* remove underlines*/
+    padding: 10px 20px;
+}
+nav a:hover{
+    background-color: #e74c3c; /* hover on touches*/
+    border-radius: 5px;
+}
+/* this is only for header part*/
+#hero{
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+}
+#about{
+    text-align: center;
+}
+#about img{
+    border-radius: 50px;
+}
+section{
+    background-color: white;
+    padding: 30px;
+}
+#projects ul{
+    list-style: none;
+}
+#projects li{
+    background-color: #ecf0ecf1;
+    padding: 15px;
+    border-radius: 5px;
+}
+table th{
+    background-color: #2c3e50;
+    color: white;
+    padding: 12px;
+}
+table td{
+    padding: 12px;
+    border: 1px solid ;
+}
+table tr:nth-child(even) {
+    background-color: #f9f9f9;  /* Every 2nd row light gray */
+}
+table tr:hover{
+    background: color #e8f4f8;;
+}
+#contact label{
+    font-weight: 600;
+}
+#contact input,
+#contact textarea{
+    width: 100%;  /* Full width */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#contact input:focus{
+    border-color: #3498db;
+}
+button{
+    background-color: #3498db;
+    color: white;
+    padding:10px ;
+    border-radius: 25px;
+}
+button:hover{
+    background-color: #e74c3c;
+}
+footer{
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
